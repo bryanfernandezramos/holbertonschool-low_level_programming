@@ -1,2 +1,3 @@
+CC=gcc
 all: main.c school.c m.h
-	gcc $S(SRC) m.h -o school
+	CC main.c school.c m.h
